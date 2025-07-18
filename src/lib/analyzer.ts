@@ -5,9 +5,6 @@ import { Comment } from './youtube';
 import OpenAI from 'openai';
 
 // Configure DeepSeek with API key
-const deepseekProvider = deepseek({
-  apiKey: process.env.DEEPSEEK_API_KEY,
-});
 
 // Fallback OpenAI client for DeepSeek
 const openai = new OpenAI({
